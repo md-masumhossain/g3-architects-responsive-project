@@ -1,19 +1,22 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 .work-sans-font {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
+
 /* shared style */
-.display-flex{
+.display-flex {
     display: flex;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: rgba(255, 144, 14, 1);
     color: white;
     padding: 20px 25px;
@@ -22,72 +25,155 @@
     font-size: 1.25rem;
     margin-top: 32px;
 }
+
+/* dark 01 */
+.dark-1 {
+    color: rgba(255, 255, 255, 1);
+}
+
 /* dark 02 */
-.text-gray{
+.text-gray {
     color: rgba(66, 66, 66, 1);
 }
+
 /* dark 03 */
-.text-light-gray{
+.text-light-gray {
     color: rgba(114, 114, 114, 1);
 }
-.bg-light{
+
+.bg-light {
     background-color: rgba(255, 144, 14, 0.1);
 }
+
 /* header styles */
 
 /* navbar related styles */
 
-.nav-item{
+.nav-item {
     list-style: none;
     margin-right: 20px;
     font-size: 1rem;
     font-weight: 600;
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
 }
-.navbar{
+
+.navbar {
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
-align-items: center;
-/* margin-top: 50px; */
+    align-items: center;
+    /* margin-top: 50px; */
 }
-.brand-title{
+
+.brand-title {
     color: rgba(19, 19, 19, 1);
     font-size: 2rem;
     font-weight: 700;
 }
+
 /* banner related styles */
- .banner-contente {
+.banner-contente {
     max-width: 850px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
-} 
-.banner-title{
+}
+
+.banner-title {
     font-size: 3.4rem;
     font-weight: 700;
     margin-top: 70px;
     color: rgba(19, 19, 19, 1);
 }
-.banner-description{
-font-size: 16px;
-font-weight: 500;
-margin-top: 20px;
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
-.banner img{
+.banner img {
     max-width: 1100px;
     display: block;
     margin: 0 auto;
 }
-.banner-image{
+
+.banner-image {
     width: 100%;
 }
+
+/* tems and feature related styles */
+.tems {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features {
+    margin-left: 73px;
+    max-width: 530px;
+}
+
+.feature-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#Features {
+    color: rgba(255, 144, 14, 1);
+}
+
+.feature-description {
+    font-size: 16px;
+    width: 450px;
+}
+ /* Features section start */
+ .features{
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 150px;
+    align-items: center;
+    margin-top: 110px;
+ }
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#feature-section-title{
+    padding-left: 8px;
+    border-left: solid rgba(255, 144, 14, 1);
+}
+.featurs-card{
+    padding: 20px;
+    box-shadow:0 4px 38px 0 rgba(0, 0, 0, 0.06) ;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.featurs-card, .feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+     /* margin-top: 20px; */
+      /* margin-bottom: 20px;  */
+}
+.features-img img{
+    width: 100%;
+    
+}
 /* responsive media query */
-@media screen  and (max-width:576px){
-    .navbar, .nav-link{
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .nav-link {
         flex-direction: column;
     }
 }
